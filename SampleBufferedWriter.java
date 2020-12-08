@@ -16,9 +16,9 @@ public class SampleBufferedWriter {
 	        
 			fw = new FileWriter(file.getAbsoluteFile());
 			bw = new BufferedWriter(fw);
-	    bw.write(file.getName());
-	    bw.close();
-	    fw.close();
+	    		bw.write(file.getName());
+	    		bw.close();
+	    		fw.close();
 		}
 		catch (IOException e) {
 			e.printStackTrace();
